@@ -1,0 +1,25 @@
+{
+  "name": "stripe-server",
+  "version": "1.0.0",
+  "description": "for processing stripe payments",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattdisipio/stripe-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattdisipio/stripe-server/issues"
+  },
+  "homepage": "https://github.com/mattdisipio/stripe-server#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "stripe": "^4.0.0"
+  }
+}
