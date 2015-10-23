@@ -12,7 +12,8 @@ app.post('/charge', function(req, res) {
     stripe.charges.create({
         card: stripeToken,
         currency: 'usd',
-        amount: req.body.amount
+        amount: req.body.amount,
+        description : req.body.description
     },
     function(err, charge) {
         if (err) {
